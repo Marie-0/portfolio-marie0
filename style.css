@@ -1,0 +1,196 @@
+:root {
+  --branding-color: #ff8200;
+  --branding-color-pink: #fe0092;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Oleo Script";
+  --default-font-family: "Raleway", sans-serif;
+}
+body {
+  font-family: var(--default-font-family);
+}
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  color: #272142;
+}
+h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
+p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  color: #272142;
+  line-height: 30px;
+}
+hr {
+  color: var(--branding-color);
+}
+.logo {
+  max-height: 42px;
+}
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+.hero h1 {
+  color: #000000;
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+  line-height: 1.5;
+}
+.hero h2 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.hero h3 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+}
+
+.hero {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 80px 20px;
+}
+
+.hero .btn-branding,
+.content-container .btn-branding,
+.contact-box .btn-branding {
+  background-color: var(--branding-color);
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 15px 30px;
+}
+.btn-outline {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+.btn-outline:hover {
+  color: #000000;
+}
+.project-container {
+  padding: 50px 60px;
+}
+
+.content-container .content h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  line-height: 80px;
+}
+.content h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: 600;
+}
+.content {
+  margin: 30px;
+}
+.content-container {
+  padding: 80px 20px;
+  margin: 0 60px;
+}
+.content-container .col-md-6 {
+  margin: 0px 0px 24px;
+  padding: 0px 12px;
+}
+.content-container.profile-pic {
+  border-radius: 15px;
+  width: 100%;
+}
+.content-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 30px 120px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  color: #000000;
+  font-size: 24px;
+  text-decoration: none;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  color: var(--branding-color);
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  text-align: center;
+}
+footer .social-links a:hover {
+  background-color: var(--branding-color);
+  color: white;
+  transition: all 100ms ease-in-out;
+}
+
+@media (max-width: 960px) {
+  .project-container {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 10px;
+  }
+  .hero h1 {
+    font-size: 44px;
+    line-height: none;
+  }
+  .hero h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: none;
+    margin: 0;
+    padding: 0;
+  }
+  .hero h3 {
+    font-weight: bolder;
+    line-height: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+  .content {
+    text-align: center;
+    padding: 0%;
+  }
+  .content-container {
+    padding-top: 15px;
+  }
+}
