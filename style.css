@@ -109,6 +109,7 @@ nav li.active a {
 .book {
   max-height: 60%;
 }
+
 .project-container {
   padding: 50px 60px;
 }
@@ -127,7 +128,7 @@ nav li.active a {
   margin: 30px;
 }
 .content-container {
-  padding: 60px 20px;
+  padding: 10px 20px;
   margin: 0 40px;
 }
 .content-container .col-md-6 {
@@ -186,24 +187,28 @@ footer .social-links a:hover {
     text-align: center;
   }
   .hero {
-    padding: 80px 10px;
+    padding: 20px 10px;
   }
   .hero h1 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: none;
   }
   .hero h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bolder;
     line-height: none;
     margin: 0;
     padding: 0;
   }
   .hero h3 {
+    font-size: 18px;
     font-weight: bolder;
     line-height: 0.5;
     margin: 0;
     padding: 0;
+  }
+  .hero p {
+    font-size: 14px;
   }
   .content {
     text-align: center;
@@ -211,5 +216,8 @@ footer .social-links a:hover {
   }
   .content-container {
     padding-top: 15px;
+  }
+  .content-container .content h1 {
+    font-size: 40px;
   }
 }
