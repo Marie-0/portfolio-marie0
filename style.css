@@ -54,6 +54,11 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+.content .link {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
 .hero h1 {
   color: var(--branding-color);
   font-family: var(--heading-font-family);
