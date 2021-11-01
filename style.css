@@ -1,17 +1,18 @@
 :root {
   --branding-color: #ff8200;
-  --branding-color-pink: #fe0092;
-  --secondary-color: #f9f7fe;
+  --secondary-color: rgba(255, 130, 0, 0.1);
   --heading-font-family: "Oleo Script";
   --default-font-family: "Raleway", sans-serif;
 }
 body {
   font-family: var(--default-font-family);
 }
+h1 {
+  color: var(--branding-color);
+}
 h2 {
   font-family: var(--heading-font-family);
   font-size: 64px;
-  color: #272142;
 }
 h4 {
   font-family: var(--heading-font-family);
@@ -21,7 +22,6 @@ p {
   font-family: var(--default-font-family);
   font-size: 16px;
   font-weight: 500;
-  color: #272142;
   line-height: 30px;
 }
 hr {
@@ -31,7 +31,9 @@ hr {
   max-height: 42px;
 }
 nav {
-  padding: 20px 0;
+  padding: 5px 20px;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
 }
 nav li {
   display: inline;
@@ -54,7 +56,7 @@ nav li.active a {
 .hero h1 {
   color: #000000;
   font-family: var(--heading-font-family);
-  font-size: 96px;
+  font-size: 12px;
   line-height: 1.5;
 }
 .hero h2 {
@@ -96,7 +98,6 @@ nav li.active a {
 .project-container {
   padding: 50px 60px;
 }
-
 .content-container .content h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
@@ -118,9 +119,8 @@ nav li.active a {
   margin: 0px 0px 24px;
   padding: 0px 12px;
 }
-.content-container.profile-pic {
-  border-radius: 15px;
-  width: 100%;
+.content-container .profile-pic {
+  width: 80%;
 }
 .content-container h3 {
   font-size: 24px;
