@@ -91,13 +91,13 @@ nav li.active a {
   padding: 15px 30px;
 }
 .weather-app {
-  max-width: 80%;
+  max-width: 85%;
 }
 .podcast-project {
   max-height: 90%;
 }
 .podcast {
-  max-height: 50%;
+  max-width: 60%;
 }
 .btn-outline {
   border: 1px solid var(--branding-color);
@@ -112,7 +112,7 @@ nav li.active a {
 }
 .media-kit,
 .book {
-  max-height: 60%;
+  max-width: 60%;
 }
 
 .project-container {
